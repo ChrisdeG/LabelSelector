@@ -191,8 +191,8 @@ define([
                         applyto: "selection",
                         actionname: mf,
                         guids: [obj.getGuid()],
-                        origin: this.mxform
                     },
+                    origin: this.mxform,
                     callback: function() {
                         if (cb && typeof cb === "function") {
                             cb();
